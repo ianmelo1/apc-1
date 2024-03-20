@@ -6,13 +6,20 @@
 #include <stdio.h>
    int main(){
 
-  float a1 = 5.5f;
-  float a2 = 4.0f;
+  float a1;
+  float a2;
+
+     printf("Digite sua nota A1:\n");
+     int deu_certo = scanf("%f", &a1);
+
+     printf("Digite sua nota A1:\n");
+     deu_certo = scanf("%f", &a2);
+     
   float media = 0.4 * a1 + 0.6 * a2;
      
 
 
-  printf("media final é %f\n", media);
+  printf("media final é %.1f\n", media);
 
   
  
