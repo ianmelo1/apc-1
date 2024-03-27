@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(){
   long int gb;
@@ -6,8 +7,8 @@ int main(){
   printf("Digite a quantidade de Gigabytes para transformar em bytes:\n");
   int deu_certo = scanf("%li", &gb);
 
-  long int bytes = gb * 1024 * 1024 * 1024;
-  printf("A quantidade de bytes é: %li\n", bytes);
+  double bytes = gb * pow(1024, 3);
+  printf("A quantidade de bytes é: %f\n", bytes);
 
 
 
