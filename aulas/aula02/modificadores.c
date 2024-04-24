@@ -4,7 +4,7 @@ int main (){
   signed char caracter_com_sinal; // 1 byte -128 a 127
   unsigned char caracter_sem_sinal; // 1 byte 0 a 225
   
-  singned int numero_inteiro; // 4 bytes -2bi a 2bi
+  signed int numero_inteiro; // 4 bytes -2bi a 2bi
   unsigned int numero_sem_sinal; // 4 bytes 0 a 4bi
 
   short int inteiro_curto; // 2 bytes -32mil a 32mil
